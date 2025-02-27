@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+
+ .quick-sand{
+	font-family: "Quicksand", serif;
+	font-optical-sizing: auto;
+	font-style: normal;
+  }
+
+  /* nav styles */
+
+.nav-logo{
+	max-width:  62px;
+}
+
+.list-item{
+	list-style: none;
+	gap: 32px;
+	
+}
+.list-a{
+text-decoration: none;
+}
+.nav-title{
+font-weight: bold;
+font-size: 2rem;
+margin: 0 auto;
+text-align: center;
+}
+
+.display-flex{
+	display: flex;
+}
+.nav-section, .nav-contant-a{
+	justify-content: space-around;
+	align-items: center;
+	margin-top: 20px;
+}
+
+.btn-1{
+	color: white;
+	border: none;
+	padding: 10px 60px;
+	background-color: orange;
+	border-radius: 12px;
+}
+
+
+/* hero section */
+.hero-section{
+	max-width: 1270px;
+	margin: 18px auto;
+	justify-content: space-between;
+	align-items: center;
+}
+.hero-contant{
+	width: 640px;
+	height: 330px;
+}
+.hero-title{
+	margin: 0;
+	font-size: 3.5rem;
+	font-weight: bold;
+
+}
+.hero-discription{
+	font-size: 1.25rem;
+
+}
+.btn-2{
+	color: white;
+	background-color: black;
+	padding: 10px 47px;
+	border-radius: 12px;
+}
+.hero-image{
+	max-width: 100%;
+}
+
+	
+
+	
