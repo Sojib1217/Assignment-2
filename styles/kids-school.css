@@ -77,6 +77,103 @@ text-align: center;
 	max-width: 100%;
 }
 
+/* curriculum-section */
+.curriculum{
+	background-image: url(../assets/bg.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+.curriculum{
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.curriculum-title{
+	margin-top: 60px;
+	margin-bottom: 80px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 2.8rem;
+}
+
+.curriculum-cards{
+justify-items: center;
+	width: 1260px;
+	margin: 0 auto;
+	gap: 24px;
+	
+}
+.card{
+	text-align: center;
+	align-items: center;
+	border-radius: 18px;
+	padding: 0 40px  40px;
+   box-shadow:0 0px 28px rgba(0, 0, 0, 0.05) inset;
+  
+
+}
+#card-1{
+	background-image: linear-gradient(rgba(222, 245, 255, 0.5), rgba(255, 255, 255, 1));
+}
+#card-2{
+	background-image: linear-gradient(rgba(255, 244, 220, 0.5), rgba(255, 255, 255, 1));
+}
+#card-3{
+	background-image: linear-gradient(rgba(238, 225, 255, 0.5),  rgba(255, 255, 255, 1));
+}
+.card-title{
+	margin-bottom: 33px;
+	font-size: 1.5rem;
+	font-weight: bold;
+}
+.card-discription{
+	font-weight: 500;
+	color: rgba(128, 128, 128, 1);
+	margin-bottom: 33px;
+}
+.card-image{
+	width: 136px;
+	margin: 52px 75px 32px;
+	
+}
+.btn-3{
+	margin-bottom: 53px;
+	border: none;
+	background-color: white;
+	font-weight: bold;
+}
+
+
+
+/* Responsive for small device  */
+@media screen and (max-width: 576px) {
+	.nav-section, .list-item, .hero-section,.curriculum, .curriculum-cards{
+		flex-direction: column;
+		align-items: center;
+	}
+	.hero-section{
+		flex-direction: column-reverse;
+		align-items: center;
+		width: 100%;
+		
+	}
+	.hero-image{
+		width: 400px;
+		margin-right: 50px;
+		
+	}
+	.hero-contant{
+		width: 100%;
+		margin: 0 auto;
+		text-align: center;
+	}
+	.curriculum-cards{
+		max-width: 100%;
+	}
+	
+	
+	
+}
 	
 
 	
